@@ -13,25 +13,37 @@
         android:theme="@style/Theme.IntroKotñin904"
         tools:targetApi="31">
         <activity
-            android:name=".palindromo.ResultadoPalindromo"
+            android:name=".diccionario.BuscarPalabra"
             android:exported="false"
             android:theme="@style/Theme.AppCompat.DayNight"/>
         <activity
-            android:name=".palindromo.palindromo"
+            android:name=".diccionario.CapturarPalabra"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight"/>
+        <activity
+            android:name=".diccionario.MenuDiccionario"
             android:exported="true"
-            android:theme="@style/Theme.AppCompat.DayNight"
-            >
+            android:theme="@style/Theme.AppCompat.DayNight">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
-            android:name=".Tema4.Ejemplo4Activity"
+            android:name=".palindromo.ResultadoPalindromo"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight" />
+        <activity
+            android:name=".palindromo.palindromo"
             android:exported="false"
             android:theme="@style/Theme.AppCompat.DayNight">
         </activity>
+        <activity
+            android:name=".Tema4.Ejemplo4Activity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight" />
         <activity
             android:name=".Tema3.Ejemplo3Activity"
             android:exported="false"
